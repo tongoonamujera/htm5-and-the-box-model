@@ -5,3 +5,9 @@ html{
 header{
   color: blue;
 }
+tr {
+  width: 30%;
+}
+table {
+  width: 100%;
+}
