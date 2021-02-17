@@ -8,29 +8,40 @@ html {
   flex: 1;
   align-content: center;
 }
-/*navigation section*/
-/*.topsec {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  width: 100vh;
-  justify-content: space-between;
-}*/
-.hed {
-  display: flex;
-  flex-wrap: wrap;
-  border: 2px black;
-  height: 5vh;
-  max-width: 900px;
-  flex-basis: 100%;
+hr {
+  position: fixed;
 }
 .first-Nav {
-  display: flex;
-  flex-direction: row;
+  display: inline-block;
+  width: 100%;
+  font-size: 25px;
 }
-.sec-Nav {
-  display: flex;
-  flex-direction: row;
+.times {
+  position: fixed;
+  right: 35%;
+  left: 35%;
+}
+.space {
+  position: fixed;
+  left: 15%;
+}
+.log {
+  position: fixed;
+  right: 0%;
+  background-color: rgb(50, 50, 104);
+  padding: 3px;
+  border: 1px black;
+  border-radius: 5px;
+  color: white;
+}
+.sub {
+  position: fixed;
+  right: 8%;
+  background-color: rgb(60, 60, 107);
+  padding: 3px;
+  border: 1px black;
+  border-radius: 5px;
+  color: white;
 }
 /*main section*/
 .main-sec {
@@ -115,10 +126,20 @@ html {
 .EditorArt {
   display: flex;
   flex-direction: column;
+  
+}
+.ev {
+  font-size: 15px;
+  border-top: 1px black;
+}
+#fh {
+  font-size: 25px;
+  text-align: center;
 }
 .mostPopSec {
   display: flex;
   flex-direction: column;
+  font-size: 10px !important;
 }
 /* footer*/
 footer {
@@ -157,5 +178,25 @@ img {
   text-align: center;
 }
 .infp {
-  padding-left: 10%;
+  padding-left: 10% !important;
+  font-size: 10px !important;
+}
+.lastSec {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-left: 10%;
+  flex-wrap: wrap;
+}
+.infph {
+  font-size: 18px !important;
+}
+p {
+  font-size: 25px;
+}
+.hrsection {
+  display: flex;
+}
+.plast {
+  font-size: 10px !important;
 }
