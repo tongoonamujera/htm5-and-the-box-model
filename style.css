@@ -1,13 +1,161 @@
-html{
+html {
   background-color: white;
+}
+/*container for all*/
+.container-sec {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-content: center;
+}
+/*navigation section*/
+/*.topsec {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  width: 100vh;
+  justify-content: space-between;
+}*/
+.hed {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px black;
+  height: 5vh;
+  max-width: 900px;
+  flex-basis: 100%;
+}
+.first-Nav {
+  display: flex;
+  flex-direction: row;
+}
+.sec-Nav {
+  display: flex;
+  flex-direction: row;
+}
+/*main section*/
+.main-sec {
+  display: flex;
+  flex-direction: column;
+}
+/*main one starts here */
+.mainOne {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+/*main one end here*/
+/*main two starts here*/
+.mainTwo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 3%;
+  margin-right: 3%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.mainTwoTop {
+  display: flex;
+}
+.mainTwoBottom {
+  display: flex;
+}
+.mainTwoBottomArt {
+  display: flex;
+  flex-direction: column;
+}
+.mainTwoTopONe {
+  display: flex;
+  flex-direction: column;
 
 }
-header{
-  color: blue;
+.mainTwoTopTwo {
+  display: flex;
+  flex-direction: column;
 }
-tr {
-  width: 30%;
+/*main two ends here*/
+.mainThree {
+  display: flex;
+  flex-direction: column;
+  margin-right: 25%;
+  margin-left: 25%;
 }
-table {
+/*main three ends here*/
+/* suggestions main starts here */
+.suggestions-sec {
+  display: flex;
+  justify-content: space-between;
+}
+.inner-sugOne {
+  display: flex;
+  flex-direction: column;
+}
+.topSug {
+  display: flex;
+}
+.topSugArt {
+  display: flex;
+  flex-direction: column;
+}
+.spaceAndAstronomy {
+  display: flex;
+  flex-direction: column;
+}
+.spaceAndAstronomyInner {
+  display: flex;
+}
+.spaceAndAstronomyArt {
+  display: flex;
+  flex-direction: column;
+}
+.Eiditor {
+  display: flex;
+}
+.EditorArt {
+  display: flex;
+  flex-direction: column;
+}
+.mostPopSec {
+  display: flex;
+  flex-direction: column;
+}
+/* footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+}
+.footNav {
+  display: flex;
+  flex: 1;
+}
+.footSec {
+  display: flex;
+}
+.new {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+
+}
+.mostImpo {
+  height: 400px;
   width: 100%;
+  margin-right: 0%;
+}
+.impicO {
+  height: 500px;
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.artof {
+  text-align: center;
+}
+.infp {
+  padding-left: 10%;
 }
