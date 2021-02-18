@@ -1,33 +1,39 @@
 html {
   background-color: white;
+  font-family: 'Times New Roman';
 }
-/*container for all*/
+/*
+container for all
+*/
+
 .container-sec {
   display: flex;
   flex-direction: column;
   flex: 1;
-  align-content: center;
 }
-hr {
-  position: fixed;
-}
+
 .first-Nav {
   display: inline-block;
   width: 100%;
-  font-size: 25px;
+  font-size: 20px;
+  position: fixed;
+  top: 0%;
 }
 .times {
   position: fixed;
   right: 35%;
   left: 35%;
+  top: 0%;
 }
 .space {
   position: fixed;
   left: 15%;
+  top: 0%;
 }
 .log {
   position: fixed;
   right: 0%;
+  top: 0%;
   background-color: rgb(50, 50, 104);
   padding: 3px;
   border: 1px black;
@@ -37,26 +43,36 @@ hr {
 .sub {
   position: fixed;
   right: 8%;
+  top: 0%;
   background-color: rgb(60, 60, 107);
   padding: 3px;
   border: 1px black;
   border-radius: 5px;
   color: white;
 }
-/*main section*/
+/*
+main section
+*/
 .main-sec {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
-/*main one starts here */
+/*
+main one starts here 
+*/
 .mainOne {
   display: flex;
   flex-direction: column;
   margin-left: 25%;
   margin-right: 25%;
 }
-/*main one end here*/
-/*main two starts here*/
+/*
+main one end here
+*/
+/*
+main two starts here
+*/
 .mainTwo {
   display: flex;
   flex-direction: column;
@@ -68,9 +84,11 @@ hr {
 }
 .mainTwoTop {
   display: flex;
+  justify-content: center;
 }
 .mainTwoBottom {
   display: flex;
+  justify-content: center;
 }
 .mainTwoBottomArt {
   display: flex;
@@ -85,15 +103,21 @@ hr {
   display: flex;
   flex-direction: column;
 }
-/*main two ends here*/
+/*
+main two ends here
+*/
 .mainThree {
   display: flex;
   flex-direction: column;
   margin-right: 25%;
   margin-left: 25%;
 }
-/*main three ends here*/
-/* suggestions main starts here */
+/*
+main three ends here
+*/
+/* 
+suggestions main starts here 
+*/
 .suggestions-sec {
   display: flex;
   justify-content: space-between;
@@ -111,10 +135,14 @@ hr {
 }
 .spaceAndAstronomy {
   display: flex;
+  flex: 2.7;
+  justify-content: space-between;
   flex-direction: column;
 }
 .spaceAndAstronomyInner {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .spaceAndAstronomyArt {
   display: flex;
@@ -133,25 +161,22 @@ hr {
   border-top: 1px black;
 }
 #fh {
-  font-size: 25px;
+  font-size: 45px;
   text-align: center;
+  position: relative;
+  right: -20%;
+  font-style: italic;
 }
 .mostPopSec {
   display: flex;
+  flex: 0.5;
   flex-direction: column;
   font-size: 10px !important;
 }
-/* footer*/
 footer {
   display: flex;
   flex-direction: column;
-}
-.footNav {
-  display: flex;
-  flex: 1;
-}
-.footSec {
-  display: flex;
+  margin-right: 0%;
 }
 .new {
   display: flex;
@@ -161,7 +186,7 @@ footer {
 img {
   height: 150px;
   width: 150px;
-
+margin-right: -10%;
 }
 .mostImpo {
   height: 400px;
@@ -187,16 +212,37 @@ img {
   margin-left: 10%;
   margin-left: 10%;
   flex-wrap: wrap;
+  align-items: center;
 }
 .infph {
-  font-size: 18px !important;
+  font-size: 15px !important;
+  position: relative;
+  right: -5%;
 }
 p {
-  font-size: 25px;
+  font-size: 20px;
 }
 .hrsection {
   display: flex;
 }
 .plast {
   font-size: 10px !important;
+}
+.insp {
+  font-size: 14px !important;
+}
+.infm {
+  position: relative;
+  font-size: 17px;
+}
+.sugim {
+  height: 220px !important;
+  width: 240px !important;
+}
+.lty {
+  border-left: 3px black;
+}
+a {
+  text-decoration: none;
+  color: rgb(155, 146, 146) !important;
 }
