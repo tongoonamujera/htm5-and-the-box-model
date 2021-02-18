@@ -19,11 +19,13 @@ container for all
   position: fixed;
   top: 0%;
 }
-.times {
+#gra {
   position: fixed;
   right: 35%;
   left: 35%;
   top: 0%;
+  width: 220px !important;
+  height: 10% !important;
 }
 .space {
   position: fixed;
@@ -53,6 +55,16 @@ container for all
 /*
 main section
 */
+.social {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: auto;
+}
+.socialIm {
+  height: 30px !important;
+  width: 30px !important;
+}
 .main-sec {
   display: flex;
   flex-direction: column;
@@ -164,7 +176,7 @@ suggestions main starts here
   font-size: 45px;
   text-align: center;
   position: relative;
-  right: -20%;
+  right: 305;
   font-style: italic;
 }
 .mostPopSec {
@@ -195,7 +207,7 @@ margin-right: -10%;
 }
 .impicO {
   height: 500px;
-  width: 100%;
+  width: 90%;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -208,7 +220,7 @@ margin-right: -10%;
 }
 .lastSec {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-left: 10%;
   margin-left: 10%;
   flex-wrap: wrap;
